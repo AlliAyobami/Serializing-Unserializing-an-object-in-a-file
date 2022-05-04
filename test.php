@@ -1,5 +1,4 @@
 <?php
-
 class Test{
    private $name;
    function __construct($arg){
@@ -11,7 +10,6 @@ class Test{
 }
 $filename="obj.txt";
 $fd=fopen("obj.txt","r"); 
-echo "<br>";
 $str=fread($fd, filesize($filename));
 $obj=unserialize($str);
 echo 'name: ' . $obj->getname();
