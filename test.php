@@ -1,7 +1,5 @@
 <?php
 
-include 'obj.txt';
-
 class Test{
    private $name;
    function __construct($arg){
